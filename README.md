@@ -7,6 +7,7 @@
 ```
 # 使用 npm 安装
 npm install react-neditor --save
+```
 
 ### 🔨 使用
 
@@ -17,5 +18,4 @@ import ReactNeditor from 'react-neditor'
   neditorPath={`${window.YOUR_PATH}/neditor`}"
 />
 ```
-
 配置参考: https://github.com/notadd/neditor
