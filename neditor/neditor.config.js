@@ -179,7 +179,7 @@
 
             //,autoClearinitialContent:true //是否自动清除编辑器初始内容，注意：如果focus属性设置为true,这个也为真，那么编辑器一上来就会触发导致初始化的内容看不到了
 
-            ,focus:true //初始化时，是否让编辑器获得焦点true或false
+            //,focus:false //初始化时，是否让编辑器获得焦点true或false
 
             //如果自定义，最好给p标签如下的行高，要不输入中文时，会有跳动感
             //,initialStyle:'p{line-height:1em}'//编辑器层级的基数,可以用来改变字体等
@@ -192,7 +192,7 @@
             //,indentValue:'2em'
 
             //,initialFrameWidth:1000  //初始化编辑器宽度,默认1000
-            ,initialFrameHeight:600  //初始化编辑器高度,默认320
+            ,initialFrameHeight:400  //初始化编辑器高度,默认320
 
             //,readonly : false //编辑器初始化结束后,编辑区域是否是只读的，默认是false
 
@@ -387,13 +387,14 @@
 
             //autoHeightEnabled
             // 是否自动长高,默认true
-            ,autoHeightEnabled: false
+            ,
+        autoHeightEnabled: false
 
             //scaleEnabled
             //是否可以拉伸长高,默认true(当开启时，自动长高失效)
-            //,scaleEnabled:false
+            ,scaleEnabled:true
             //,minFrameWidth:800    //编辑器拖动时最小宽度,默认800
-            //,minFrameHeight:220  //编辑器拖动时最小高度,默认220
+            ,minFrameHeight:400  //编辑器拖动时最小高度,默认220
 
             //autoFloatEnabled
             //是否保持toolbar的位置不动,默认true
