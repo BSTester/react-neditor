@@ -1,0 +1,61 @@
+{
+  "name": "react-neditor",
+  "version": "1.0.0",
+  "description": "an neditor component for react",
+  "main": "lib",
+  "scripts": {
+    "build": "rm -rf lib/ && babel src -d lib",
+    "lint": "eslint src/**/*.js example/**/*.js --fix",
+    "start": "webpack-dev-server --config example/webpack.config.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BSTester/react-neditor.git"
+  },
+  "keywords": [
+    "neditor",
+    "react"
+  ],
+  "author": "BSTester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BSTester/react-neditor/issues"
+  },
+  "homepage": "https://github.com/BSTester/react-neditor#readme",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "rc-dialog": "6.5.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "eslint": "^4.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^6.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.10.3",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-xss": "^0.1.8",
+    "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.6.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.3.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
