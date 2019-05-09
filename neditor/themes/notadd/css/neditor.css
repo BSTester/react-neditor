@@ -151,10 +151,15 @@ div.edui-box {
     font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;
 }
 
+.edui-notadd .edui-editor > div:first-of-type:empty {
+    height: auto !important;
+}
+
 .edui-editor div{
     width:auto;
     height:auto;
     line-height: 1 !important;
+    max-width: 100%;
 }
 .edui-notadd .edui-editor-toolbarbox {
     position: relative;
