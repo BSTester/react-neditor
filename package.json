@@ -1,6 +1,6 @@
 {
   "name": "react-neditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "an neditor component for react",
   "main": "lib",
   "scripts": {
