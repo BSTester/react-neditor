@@ -89,6 +89,8 @@ class ReactNeditor extends React.Component {
         return this.props.debug
           ? this.createScript(neditorPath + '/neditor.parse.js')
           : this.createScript(neditorPath + '/neditor.parse.min.js')
+      }).then(()=>{
+        return this.createScript(neditorPath + '/third-party/jquery-1.10.2.min.js')
       })
     }
     window.UE_LOADING_PROMISE.then(() => {

@@ -18,4 +18,4 @@ import ReactNeditor from 'react-neditor'
   neditorPath={`${window.YOUR_PATH}/neditor`}"
 />
 ```
-配置参考: https://github.com/notadd/neditor
+配置参考: https://github.com/notadd/neditor 和 https://github.com/ifanrx/react-ueditor
